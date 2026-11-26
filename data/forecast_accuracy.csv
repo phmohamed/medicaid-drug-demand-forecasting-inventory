@@ -1,0 +1,7 @@
+method,median_MASE,mean_MASE,WAPE,bias_pct,median_abs_pct_err
+naive,1.188,1.631,0.093,-0.21,4.863
+seasonal naive,2.024,2.733,0.131,-1.305,8.782
+4-quarter average,1.46,1.93,0.099,-0.594,6.136
+trend + season regression,1.925,4.793,0.177,8.316,7.835
+"Holt-Winters (log, damped)",1.221,3.584,0.127,5.721,4.771
+combination of 3,1.503,3.316,0.127,4.244,6.282

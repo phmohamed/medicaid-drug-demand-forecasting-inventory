@@ -1,0 +1,31 @@
+method,z_target,fill_rate,leftover_stock_per_demand
+naive,0.8,0.9818,0.1635
+naive,0.9,0.9886,0.2347
+naive,0.95,0.9921,0.2985
+naive,0.975,0.994,0.3553
+naive,0.99,0.9953,0.4223
+seasonal naive,0.8,0.9638,0.2465
+seasonal naive,0.9,0.9727,0.3572
+seasonal naive,0.95,0.9776,0.4515
+seasonal naive,0.975,0.9805,0.5349
+seasonal naive,0.99,0.9833,0.6329
+4-quarter average,0.8,0.9746,0.1307
+4-quarter average,0.9,0.981,0.182
+4-quarter average,0.95,0.9845,0.2262
+4-quarter average,0.975,0.9868,0.2654
+4-quarter average,0.99,0.9889,0.3122
+trend + season regression,0.8,0.9741,0.3533
+trend + season regression,0.9,0.9799,0.4592
+trend + season regression,0.95,0.9832,0.5506
+trend + season regression,0.975,0.9853,0.6316
+trend + season regression,0.99,0.9877,0.7263
+"Holt-Winters (log, damped)",0.8,0.9869,0.3044
+"Holt-Winters (log, damped)",0.9,0.9909,0.3943
+"Holt-Winters (log, damped)",0.95,0.9929,0.4701
+"Holt-Winters (log, damped)",0.975,0.9942,0.5364
+"Holt-Winters (log, damped)",0.99,0.9953,0.6139
+combination of 3,0.8,0.9794,0.2252
+combination of 3,0.9,0.9845,0.3002
+combination of 3,0.95,0.9873,0.3639
+combination of 3,0.975,0.9892,0.4199
+combination of 3,0.99,0.9909,0.4855

@@ -1,0 +1,7 @@
+method,X,Y,Z
+4-quarter average,0.043,0.077,0.179
+"Holt-Winters (log, damped)",0.035,0.07,0.274
+combination of 3,0.043,0.078,0.26
+naive,0.04,0.072,0.169
+seasonal naive,0.06,0.104,0.229
+trend + season regression,0.057,0.096,0.377
